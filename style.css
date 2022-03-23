@@ -1,0 +1,191 @@
+a:link {
+    color: #000000;
+}
+
+.nav-item:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  border-radius: 15%;
+  background-color: lightgray;
+}
+
+.navbar-brand, .nav-link {
+    font-weight: 500;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-item {
+    font-size: 16px;
+}
+
+.border-no {
+    border: 0;
+    width: 100px;
+}
+
+@media (max-width: 992px) {
+    .nav-item {
+        font-size: 14px;
+    }
+    
+    .border-no {
+        width: 85px;
+    }
+}
+
+/* Hero */
+
+#mainHed a:link, a:visited {
+    color: black;
+}
+
+#mainHed a:hover {
+    text-decoration: underline;
+}
+
+/* Latest News */
+
+.boxHed {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.date {
+    font-weight: 100;
+    font-size: 9pt;
+    margin-top: -6px;
+}
+
+.newsPic {
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    object-fit: cover;
+    max-height: 100px;
+}
+
+@media (max-width: 768px) {
+    .boxHed {
+        font-size: 10pt;
+        padding: 20px 0 0 0;
+    }
+}
+
+/* carousel */
+
+.scrollableRow {
+    overflow-x: scroll;
+}
+
+.caroRow {
+    background-color: black;
+    color: white;
+}
+
+.caroRow h4 {
+    font-size: 16pt;
+}
+
+@media (max-width: 768px) {
+    .caroRow h4 {
+        font-size: 12pt;
+        width: 50%;
+    }
+}
+
+/* more news */
+
+@media (max-width: 768px) {
+    .moreBox {
+        display: inline-flex;
+    }
+
+    .morePic {
+        width: 50%;
+    }
+
+    .moreHed {
+        width: 50%;
+    }
+}
+
+.moreBox a:link, a:visited {
+    color: black;
+}
+
+.moreBox a:hover {
+    text-decoration: underline;
+}
+
+.moreHed h4 {
+    font-size: 13pt;
+    font-weight: 600;
+}
+
+@media (max-width: 576px) {
+    .moreHed h4 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+/* Newsletter */
+
+.letterBox {
+    color: white;
+    background-color: black;
+}
+
+.newsletterPic {
+    object-fit: cover;
+    height: 450px;
+}
+
+/* footer */
+
+.footerItem h5 {
+    font-size: 10pt;
+    text-transform: uppercase;
+}
+
+.footerItem li {
+    font-size: 10pt;
+    line-height: 30px;
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .footerItem {
+        height: auto;
+        font-size: 10pt;
+    }
+
+    .footerItem ul {
+       text-align: left;
+       line-height: 36px;
+       margin: 0;
+       padding: 0;
+    }
+
+    .footerItem ul:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+    }
+
+    .footerItem ul li {
+        display: inline-block;
+        line-height: 100%;
+        width: 33%
+    }
+}
+.disclaimText {
+    font-size: 10pt;
+}
+
+.copyrightText {
+    font-size: 10pt;
+    line-height: 6px;
+}
